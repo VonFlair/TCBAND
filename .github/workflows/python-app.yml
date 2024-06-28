@@ -4,7 +4,7 @@ on:
   pull_request:
     branches: [ "main" ]
   schedule:
-    - cron: '* * * * *' # 每天早上9点运行 (UTC时间)
+    - cron: '0 1 * * *' # 每天早上9点运行 (UTC时间)
 
 permissions:
   contents: read
