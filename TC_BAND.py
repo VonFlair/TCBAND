@@ -12,8 +12,8 @@ Band_count_list = []
 df_list = []
 
 # Setting Input & Output Path
-file_path = 'C:\\Users\\feng_j\\Desktop\\project1\\3.92.0_20240429_r071_noTPCVInfo - Copy.xlsx'
-target_path = 'C:\\Users\\feng_j\\Desktop\\project1\\Summary.xlsx'
+file_path = '3.92.0_20240429_r071_noTPCVInfo - Copy.xlsx'
+target_path = 'Summary.xlsx'
 Excel_file = pd.ExcelFile(file_path)
 
 RedCap_Sheets = [sheet for sheet in Excel_file.sheet_names if 'RedCap' in sheet]
