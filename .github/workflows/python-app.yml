@@ -34,5 +34,5 @@ jobs:
     - name: Run TC_BAND.py
       if: github.event_name == 'schedule' # 仅在计划任务触发时运行
       run: |
-        
+        chmod +x TC_BAND.py
         python TC_BAND.py
