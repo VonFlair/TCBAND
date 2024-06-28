@@ -1,0 +1,3 @@
+version_filter=23.37.1
+verdict_filter=Passed
+target_path=/path/to/directory
